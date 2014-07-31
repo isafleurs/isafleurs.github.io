@@ -1,5 +1,5 @@
 /**
- * Main JS file for Casper behaviours
+ * Main JS file for Landscape behaviours
  */
 
 /*globals jQuery, document */
@@ -10,7 +10,7 @@
 
         $(".post-content").fitVids();
 
-        function casperFullImg() {
+        function landscapeFullImg() {
             $("img").each( function() {
                 var contentWidth = $(".post-content").outerWidth(); // Width of the content
                 var imageWidth = $(this)[0].naturalWidth; // Original image resolution
@@ -23,8 +23,8 @@
             });
         };
 
-        casperFullImg();
-        $(window).smartresize(casperFullImg);
+        landscapeFullImg();
+        $(window).smartresize(landscapeFullImg);
 
     });
 
@@ -53,7 +53,7 @@
           timeout = setTimeout(delayed, threshold || 100);
       };
   }
-  // smartresize 
+  // smartresize
   jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
 })(jQuery,'smartresize');
