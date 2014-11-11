@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Isafleurs]]></title><description><![CDATA[Isafleurs]]></description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 12 Sep 2014 19:00:21 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Hydratation maximale]]></title><description><![CDATA[<p><img src='http://127.0.0.1:2368/content/images/2014/Sep/11.jpg'  alt="" /></p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Isafleurs]]></title><description><![CDATA[Isafleurs]]></description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Tue, 11 Nov 2014 01:04:46 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[[Francis : How to deploy]]]></title><description><![CDATA[<h1 id="isafleursblog">Isafleurs blog</h1>
+
+<p>Bloggin platform with <a href='https://ghost.org/' >Ghost</a> deployed with <a href='https://github.com/axitkhurana/buster/' >Buster</a> </p>
+
+<p>Blog code is maintained on a bitbucket repo.</p>
+
+<h2 id="runningtheprojectlocally">Running the project locally</h2>
+
+<p>Run <code>npm start</code> to start ghost</p>
+
+<p>Open <code>http://localhost:2368</code></p>
+
+<p>Admin is located here : <code>http://localhost:2368/admin</code></p>
+
+<h2 id="setupbuster">Setup buster</h2>
+
+<p>We use buster to deploy to github pages.</p>
+
+<p><code>setup buster --gh-repo=&lt;github-repo-url&gt;</code></p>
+
+<p>This will create a git repo inside <code>your/site/static</code>. This is where buster will generate all your ghost static files before getting push to <code>&lt;github-repo-url&gt;</code> on branch master.</p>
+
+<p><code>add-domain isafleurs.ca</code></p>
+
+<p>Adds CNAME file with custom domain name as required by Github Pages.</p>
+
+<h2 id="deploy">Deploy</h2>
+
+<p><code>buster generate --domain=http://127.0.0.1:2368</code></p>
+
+<p>Ghost port is generally <code>2368</code> but you can change this to fits your needs.</p>
+
+<p><code>buster deploy</code></p>
+
+<p>Buster push the newly generated content to remote branch <code>master</code>.</p>
+
+<p><em>Make sure that a CNAME is located in static folder. Github pages needs it to find your blog. It should contain a single line with this : <code>isafleurs.ca</code></em></p>
+
+<p>Note: Changes can take up to 10 minutes to show up. So don't panic just yet.</p>]]></description><link>http://127.0.0.1:2368/test/</link><guid isPermaLink="false">f81c74f0-d135-4992-8442-b6a09c714b56</guid><dc:creator><![CDATA[Isabelle Giroux]]></dc:creator><pubDate>Mon, 10 Nov 2014 23:26:04 GMT</pubDate></item><item><title><![CDATA[Hydratation maximale]]></title><description><![CDATA[<p><img src='http://127.0.0.1:2368/content/images/2014/Sep/11.jpg'  alt="" /></p>
 
 <p>Peau sèche et craquelée? C’est terminé! Depuis que j’ai découvert le merveilleux univers de Body Shop (et de ses multiples rabais dois-je préciser), s’en est fini de la peau sèche. Leur <a href='http://www.thebodyshop.ca/fr/bath-body-care/body-moisturisers/body-butter.aspx' #/body-butter.aspx">multitude de beurres corporels</a> prétend donner une hydratation de 24h. J’étais un peu septique au début, mais après l’avoir essayé je n’avais plus de difficulté à le croire! La crème est riche et pénètre bien dans la peau. Et que dire des choix de senteur, plus d’une dizaine de choix différent. J’en ai essayé quatre jusqu’à maintenant et je ne saurais choisir un préféré. Noix de coco, framboises, miel, noix du Brésil, chacun a sa particularité. </p>
 
